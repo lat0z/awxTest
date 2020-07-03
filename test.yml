@@ -1,0 +1,9 @@
+---
+- name: "Local play test"
+  hosts: all
+  tasks:
+  - name: getting started first task of the play
+    ping:
+
+  - name: check the hostname of the target
+    command: "hostname"
